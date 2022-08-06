@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- char encoding -->
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="A biography page about Abigail Magdaleno."
+    />
+
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <!-- start of the body -->
+  <body class="body_content">
+    <main>
+      <header class="header_style">
+        <!-- This is the title of the webpage in the biggest heading h1 -->
+        <h1 class="page_title">Abigail Magdaleno</h1>
+
+        <!-- This is my creative title in h2 -->
+        <!-- <h2>I, Me, and Myself</h2> -->
+
+        <!--unordered list of links to navigate within the website -->
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html" title="link to same directory">Home</a>
+            </li>
+            <li>
+              <a href="favorites.html" title="link up one directory"
+                >Favorites</a
+              >
+            </li>
+            <li>
+              <a href="gallery.html" title="link up one directory"
+                >Photo Gallery</a
+              >
+            </li>
+            <li>
+              <a href="resume.html" title="link up one directory">Resume</a>
+            </li>
+            <li>
+              <!-- link will open email application on computer-->
+              <a href="mailto:aemagdaleno@mymail.tstc.edu" title="link to email"
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a href="contact-me.html" title="link up one directory"
+                >Contact Me</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <h2 class="form-title">Send Me A Message!</h2>
+      <!-- contact Form -->
+      <div class="form-container">
+        <form action="/action_page.php">
+          <div class="form">
+            <label for="fname">First Name:</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your Name"
+            />
+          </div>
+          <div class="form">
+            <label for="lname">Last Name:</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name"
+            />
+          </div>
+          <div class="form">
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              name="Email"
+              placeholder="me@example.com"
+            />
+          </div>
+          <div class="form">
+            <label for="phone">Phone Number:</label>
+            <input
+              type="tel"
+              id="phone"
+              name="Phone"
+              placeholder="555-555-555"
+            />
+          </div>
+          <div class="form">
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+              <option value="usa">United States</option>
+              <option value="canada">Canada</option>
+              <option value="australia">Australia</option>
+            </select>
+          </div>
+          <div class="form">
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" />
+          </div>
+          <div class="form">
+            <label for="Message">Message:</label>
+            <textarea
+              id="Message"
+              name="Message"
+              placeholder="Write something.."
+              style="height: 200px"
+            ></textarea>
+          </div>
+          <input type="submit" value="Submit" />
+          <input type="reset" />
+        </form>
+      </div>
+    </main>
+
+    <!-- footer for whole site -->
+    <footer>
+      <p>
+        Copyright &copy; 2022 - Abigail Magdaleno. &nbsp;All rights
+        reserved.&nbsp;
+        <a href="mailto:aemagdaleno@mymail.tstc.edu" title="link to email"
+          >aemagdaleno@mymail.tstc.edu</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
